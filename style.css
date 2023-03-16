@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to right bottom, #5ecde1, #2caee2);
+}
+
+main{
+    background: rgba(211, 211, 211, 0.568);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2em;
+    box-shadow: 0 0 10px white;
+}
+
+main h1{
+    font-size: 2em;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.line{
+    width: 90%;
+    height: 2px;
+    background: grey;
+    margin: 10px;
+}
+
+.bill{
+    margin: 0 2em 0 2em;
+}
+
+.input{
+    font-size: 1em;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background: white;
+}
+
+.bill i{
+    font-size: 1.5em;
+    padding: 2px 10px;
+}
+
+.bill input{
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+.guests{
+    margin: 1em 2em 0 2em;
+}
+
+.input{
+    font-size: 1em;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.guests i{
+    font-size: 1.5em;
+    padding: 2px 10px;
+}
+
+.guests input{
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+.service{
+    margin-top: 1em;
+    width: 85%;
+}
+
+.service select{
+    width: 100%;
+    font-size: 1em;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main button{
+    background: lightgrey;
+    outline: none;
+    border: 1px solid grey;
+    padding: .8em;
+    border-radius: 10px;
+    margin: 1.5em;
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+main button:hover{
+    background: grey;
+}
+
+.koncowaKwota{
+    text-align: center;
+}
